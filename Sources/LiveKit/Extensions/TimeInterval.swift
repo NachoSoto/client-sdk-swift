@@ -31,7 +31,7 @@ public extension DispatchTimeInterval {
     static let defaultPublish: Self = .seconds(10)
     // the following 3 timeouts are used for a typical connect sequence
     static let defaultJoinResponse: Self = .seconds(7)
-    static let defaultTransportState: Self = .seconds(10)
+    static let defaultTransportState: Self = .seconds(30)
     // used for validation mode
     static let defaultPublisherDataChannelOpen: Self = .seconds(7)
 
